@@ -1,0 +1,32 @@
+Website structure 
+
+(Main)
+Index.php
+	About_login.php
+	Howitworks.php
+	Login.php
+	
+(Tutor)
+	About_tutor.php
+	tutorDashboard.php
+		EnterLessondata.php
+		ViewStudentData.php
+	Logout.php
+	
+(Student)
+	About_student.php
+	StudentDashboard.php
+		SubmitFeedback.php
+		SearchTutor.php
+	Logout.php	
+	
+(Admin)
+	About_admin.php
+	adminDashboard.php
+		Reports.php
+			PerDay.php
+			PerCourse.php
+			PerTutor.php
+	Logout.php
+	
+	

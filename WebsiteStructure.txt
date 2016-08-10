@@ -1,0 +1,32 @@
+Website structure 
+
+(Main)
+Home Page
+	About us
+	How it works
+	Login
+	
+(Tutor)
+	About
+	Dashboard
+		Enter Lesson Information
+		View My Students
+	Logout
+	
+(Student)
+	About
+	Dashboard
+		Submit Feedback
+		Search For Tutor
+	Logout
+	
+(Admin)
+	About
+	Dashboard
+		Reports
+			Per Day
+			Per Course
+			Per Tutor
+	Logout
+	
+	

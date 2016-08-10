@@ -1,0 +1,327 @@
+ div
+ 	{
+
+	font-family:Helvetica-Neue, Helvetica, arial, sans-serif;
+	margin-top:0; padding:0; margin:0;
+	text-align:justify;
+	color:#000;	
+	}
+.nivoSlider {
+    position:relative;
+    background:url(images/loading.gif) no-repeat 50% 50%;
+	z-index:100;
+}
+.nivoSlider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+.nivoSlider a {
+    border:0;
+    display:block;
+}
+
+
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  z-index:-1;
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+		
+				
+@charset "utf-8";
+/* CSS Document */
+
+body, img {
+
+	font-family:Helvetica-Neue, Helvetica, arial, sans-serif;
+	margin-top:0; padding:0; margin:0;
+	text-align:justify;
+	color:#FFF;	
+	}
+
+
+
+#navbarh2
+{
+	font-family: Helvetica, sans-serif;
+	font-size: 36px;
+	font-style: italic;
+	font-weight: bold;
+	font-variant: normal;
+	color: #fff;
+	letter-spacing: -0.05em;
+
+	text-align:center;
+	
+	
+}
+#navbar
+{
+	font-family: Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	font-style: italic;
+	font-variant: normal;
+	color: #FFF;
+	letter-spacing: -0.05em;
+	text-indent: 10px;
+	padding-top:15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	/*-moz-box-shadow: 0 0 20px  black; 
+	-webkit-box-shadow: 0 0 20x black; 
+	box-shadow:  0 0 20px black; */
+	z-index:200;
+	height:40px;
+	vertical-align:middle;
+}
+
+.topbar{
+font-family: Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	font-style: italic;
+	font-variant: normal;
+	color: #FFF;
+padding-right: 90px;
+margin:0 auto;
+
+position:fixed;
+float:right;
+width:100%;
+height:75px;
+overflow:visible;
+
+
+
+}
+
+
+.box_border
+{
+	border:medium;
+	border:#999;
+}
+
+.descirption
+{
+	color:#000;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding:5px;
+	background:#eee;
+	line-height: 18px;
+	max-width:100%;
+}
+
+
+
+/*DropDownCSS*/
+
+a									{ text-decoration: none; }
+ul									{ list-style: none; }
+
+
+/* 
+	LEVEL ONE
+*/
+ul.dropdown                         { position: relative; margin-bottom:-10px; }
+ul.dropdown li                      { font-weight: bold; float: left; zoom: 1; background: #000; }
+ul.dropdown a:hover		            { color: #CCC; }
+ul.dropdown a:active                { color: #CCC; }
+ul.dropdown li a                    { display: block; padding-right:16px;  color: #fff; }
+ul.dropdown li:last-child a         { border-right: none; } /* Doesn't work in IE */
+ul.dropdown li.hover,
+ul.dropdown li:hover                { background: #000;; color: #fff; position:relative;  }
+ul.dropdown li.hover a              { color: #; }
+
+
+/* 
+	LEVEL TWO
+*/
+ul.dropdown ul 						{ width: 200px; visibility: hidden; position: absolute; top: 100%; left: 0;  }
+ul.dropdown ul li 					{ font-weight: normal; background: #eee; color:#fff; float: none; }
+ul.dropdown ul a:hover		        { color: #000;  }
+ul.dropdown ul a:active             { color: #000;  }
+ul.dropdown ul li a                 { display: block; padding-right:16px; color: #000;  }
+ul.dropdown ul li:last-child a      { border-right: none; } /* Doesn't work in IE */
+ul.dropdown ul li.hover,
+ul.dropdown ul li:hover             { background: #CCC; color: #000; position: relative; }
+ul.dropdown ul li.hover a           { color: #000;  }
+
+
+
+									  
+                                    /* IE 6 & 7 Needs Inline Block */
+ul.dropdown ul li a					{ border-right: none; width: 100%; display: inline-block; } 
+
+/* 
+	LEVEL THREE
+*/
+ul.dropdown ul ul 					{ left: 100%; top: 0; }
+ul.dropdown li:hover > ul 			{ visibility: visible; }
+
+
+.no_drop
+{
+	background:#000;
+	color:#fff;
+	
+}
+
+
+.music
+{
+	width: 420px;
+	border:thin;
+	border-color:#FFF;
+
+	margin:0 0 20px 20px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding:10px;
+	color:#FFF;
+	background:url(../images/Music/1.png);
+	text-align:left;
+	float:left;
+	
+	
+	
+}
+
+.music_conatiner
+{
+	margin-left:100px;
+	width:1000px;
+
+}
+
+h4
+{
+	font-family: Helvetica, sans-serif;
+	font-size: 48px;
+	font-style: italic;
+	font-weight: bold;
+	font-variant: normal;
+	color: #fff;
+	letter-spacing: -0.1em;
+	text-align:left;	
+	
+}
+
+
+h2
+{
+	font-family: Helvetica, sans-serif;
+	font-size: 36px;
+	font-style: italic;
+	font-weight: bold;
+	font-variant: normal;
+	color: #fff;
+	letter-spacing: -0.1em;
+	text-align:center;	
+	
+}
+
+
+h3
+{
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-variant: normal;
+	color: #fff;
+	letter-spacing: -0.05em;
+	text-align:left;
+	
+}
+
+.clear
+{
+	clear:both;
+}
+
+p
+{
+	text-align:left;
+	margin-bottom:10px;
+}
+
+
+.hesh
+{
+	width: 420px;
+	border:thin;
+	border-color:#FFF;
+	margin:0 0 20px 20px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding:10px;
+	color:#FFF;
+	background:url(../images/Music/1.png);
+	text-align:left;
+	float:left;
+	
+	
+	
+}
+
+
+<!--CSS FOR ROUNDABOUT-->
+ #carousel {
+        width:960px;
+        border:1px solid #222;
+        height:300px;
+        position:relative;
+        clear:both;
+        overflow:hidden;
+        background:#FFF;
+      }
+      #carousel img {
+        visibility:hidden; /* hide images until carousel can handle them */
+        cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+      }
+
+      .split-left {
+        width:450px;
+        float:left;
+      }
+      .split-right {
+        width:400px;
+        float:left;
+        margin-left:10px;
+      }
+      #callback-output {
+        height:250px;
+        overflow:scroll;
+      }
+      textarea#newoptions {
+        width:430px;
+      }
+
+
+h1
+{
+	font-family: Helvetica, sans-serif;
+	font-size: 50px;
+	font-style: italic;
+	font-weight: bold;
+	font-variant: normal;
+	color: #fff;
+	letter-spacing: -0.1em;
+	text-align:left;
+	line-height:30px;
+	
+}
+
+
